@@ -25,9 +25,8 @@ const Problems = () => {
                 </div>
 
               </div>
-              <div className="row">
-                <span className='font-18 fw-normal'>Dental Braces</span>
-              </div>
+                <span className='font-18 fw-semibold'>Dental Braces</span>
+              
             </div>
             <div class="grid-item ">
               <div className="row">
@@ -38,7 +37,7 @@ const Problems = () => {
 
               </div>
               <div className="row">
-                <span className='font-18 fw-normal'>Dental Crown</span>
+                <span className='font-18 fw-semibold'>Dental Crown</span>
               </div>
             </div>
             <div class="grid-item"><div className="row">
@@ -49,7 +48,7 @@ const Problems = () => {
 
             </div>
               <div className="row">
-                <span className='font-18 fw-normal'>Dental Filling</span>
+                <span className='font-18 fw-semibold'>Dental Filling</span>
               </div></div>
             <div class="grid-item"><div className="row">
               <div className="img-div d-flex justify-content-between">
@@ -59,7 +58,7 @@ const Problems = () => {
 
             </div>
               <div className="row">
-                <span className='font-18 fw-normal'>Anesthesia</span>
+                <span className='font-18 fw-semibold'>Anesthesia</span>
               </div></div>
 
           </div>
