@@ -9,10 +9,10 @@ import dot from '../assets/images/dot.png'
 const Problems = () => {
   return (
   
-   <div className="container">
+   <div className="container ">
       <div className="row">
         <div className="col-md-3"></div>
-        <div className="col-md-6">
+        <div className="col-md-6 mb-3">
           <h5 className="text-start mt-2 pb-1 problem-title font-16 fw-bold">Choose Problems</h5>
           <div class="grid-container">
             <div class="grid-item ">
