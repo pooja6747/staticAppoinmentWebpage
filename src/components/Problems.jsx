@@ -4,6 +4,7 @@ import dental2 from '../assets/images/crown.png'
 import dental3 from '../assets/images/dental-filling.png'
 import dental4 from '../assets/images/dental4.png'
 import dot from '../assets/images/dot.png'
+import dot2 from '../assets/images/dot2.png'
 // import page from '../assets/images/page.png'
 
 const Problems = () => {
@@ -32,7 +33,7 @@ const Problems = () => {
               <div className="row">
                 <div className="img-div d-flex justify-content-between">
                   <img src={dental2} className='dental' alt='..dental' width="30" height="30" />
-                  <img src={dot} className='dot-img' alt='..dental' width="30" height="30" />
+                  <img src={dot2} className='dot-img' alt='..dental' width="30" height="30" />
                 </div>
 
               </div>
@@ -43,7 +44,7 @@ const Problems = () => {
             <div class="grid-item"><div className="row">
               <div className="img-div d-flex justify-content-between">
                 <img src={dental3} className='dental' alt='..dental' width="30" height="30" />
-                <img src={dot} alt='..dental' className='dot-img' width="30" height="30" />
+                <img src={dot2} alt='..dental' className='dot-img' width="30" height="30" />
               </div>
 
             </div>
@@ -53,7 +54,7 @@ const Problems = () => {
             <div class="grid-item"><div className="row">
               <div className="img-div d-flex justify-content-between">
                 <img src={dental4} className='dental' alt='..dental' width="30" height="30" />
-                <img src={dot} alt='..dental' className='dot-img' width="30" height="30" />
+                <img src={dot2} alt='..dental' className='dot-img' width="30" height="30" />
               </div>
 
             </div>
