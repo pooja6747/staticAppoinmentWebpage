@@ -64,18 +64,9 @@ form {
 
 .main {
   background-image: url('./assets/images/Ellipse.png'), url('./assets/images/Rectangle.png');
-  background-position: right bottom, left top !important;
-  background-size: cover, cover;
-  height: 10vh, 20vh;
-  width: auto, auto;
+  background-position: top left, bottom right !important;
+  background-size: contain, contain;
   background-repeat: no-repeat, no-repeat;
-}
-
-
-.box {
-
-  height: 50px;
-  width: 50px;
 }
 
 .icon {
@@ -91,7 +82,6 @@ form {
 
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 18px;
   margin: 15px;
@@ -99,10 +89,13 @@ form {
   border-radius: 10px;
 }
 
-input:focus {
-  outline: none;
+.dental{
+  color: #6B5AE0 !important;
+  height: 40px;
+  width: 40px;
 }
 
-.para{
-  background-color: #FFFFFF;
+.dot-img{
+  background-color: #383258;
+  border-radius: 15px;
 }

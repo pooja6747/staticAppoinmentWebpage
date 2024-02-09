@@ -7,7 +7,7 @@ const Form = () => {
             <div className="row">
                 <div className="col-md-3"></div>
                 <div className="col-md-6 ">
-                    <h5 className="text-start mt-2 pb-3 title font-16">Appoinment Booking</h5>
+                    <h5 className="text-start mt-2 pb-3 title font-16 fw-bold">Appoinment Booking</h5>
                     <form className='form-block p-4 rounded-5 mt-2'>
                         <div className="mb-3">
                             <input type="text" className="form-control rounded-5 " placeholder="Enter Name"/>
