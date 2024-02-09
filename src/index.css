@@ -72,7 +72,7 @@ form {
   background-position: center;
   background-size: cover;
  height: auto;
- width: auto;
+ width: 100%;
 }
 
 .icon {
