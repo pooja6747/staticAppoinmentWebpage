@@ -63,10 +63,16 @@ form {
 }
 
 .main {
-  background-image: url('./assets/images/Ellipse.png'), url('./assets/images/Rectangle.png');
-  background-position: top left, bottom right !important;
-  background-size: contain, contain;
-  background-repeat: no-repeat, no-repeat;
+  /* background-image: url('./assets/images/Ellipse.png'),url('https://www.solidbackgrounds.com/images/1024x1024/1024x1024-ghost-white-solid-color-background.jpg'),
+  url('./assets/images/Rectangle.png');
+  background-position: top left,center, bottom right;
+  background-size: contain, contain ;
+  background-repeat: no-repeat, no-repeat,no-repeat; */
+  background-image: url('./assets/images/bg-image.jpeg');
+  background-position: center;
+  background-size: cover;
+ height: auto;
+ width: auto;
 }
 
 .icon {
@@ -90,20 +96,19 @@ form {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }
 
-.btn-shadow{
+.btn-shadow {
   box-shadow: #6B5AE0 0px 5px 10px;
 }
 
 
-.dental{
+.dental {
   color: #383258;
   height: 40px;
   width: 40px;
 }
 
 
-.dot-img{
+.dot-img {
   background-color: #383258;
   border-radius: 15px;
 }
-

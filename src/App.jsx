@@ -13,9 +13,6 @@ function App() {
       <Main />
       <Form />
       <Problems />
-
-
-
     </div>
   )
 }
