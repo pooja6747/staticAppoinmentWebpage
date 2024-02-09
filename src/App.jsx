@@ -9,14 +9,13 @@ function App() {
 
   return (
     <div className="main">
-<div className="main1">
-<Navbar />
+      <Navbar />
       <Main />
       <Form />
       <Problems />
 
-</div>
-      
+
+
     </div>
   )
 }

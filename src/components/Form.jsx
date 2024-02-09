@@ -3,7 +3,7 @@ import React from 'react'
 
 const Form = () => {
     return (
-        <div className="container mt-4">
+        <div className="container mt-4 mb-3">
             <div className="row">
                 <div className="col-md-3"></div>
                 <div className="col-md-6 ">

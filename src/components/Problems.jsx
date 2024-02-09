@@ -12,12 +12,14 @@ const Problems = () => {
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-6">
-          <h5 className="text-start mt-2 pb-3 problem-title font-16">Choose Problems</h5>
+          <h5 className="text-start mt-2 pb-1 problem-title font-16">Choose Problems</h5>
           <div class="grid-container">
             <div class="grid-item ">
               <div className="row">
                 <div className="img-div d-flex justify-content-between">
+                  <div className="para">
                   <img src={dental1} alt='..dental' width="30" height="30" />
+                  </div>
                   <img src={dot} alt='..dental' width="30" height="30" />
                 </div>
 

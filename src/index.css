@@ -30,7 +30,7 @@ nav {
   font-size: 16px !important;
 }
 
-.font-18{
+.font-18 {
   font-size: 18px !important;
   color: #1E1A34;
 }
@@ -63,25 +63,17 @@ form {
 }
 
 .main {
-  background-image: url('./assets/images/Ellipse.png');
-  background-position: top !important;
-  background-size: cover;
-  height: 40vh;
-  width: auto;
-
-  background-repeat: no-repeat;
+  background-image: url('./assets/images/Ellipse.png'), url('./assets/images/Rectangle.png');
+  background-position: right bottom, left top !important;
+  background-size: cover, cover;
+  height: 10vh, 20vh;
+  width: auto, auto;
+  background-repeat: no-repeat, no-repeat;
 }
 
-/* .main1{
- background: url('./assets/images/Rectangle.png');
- background-position: bottom !important;
-  background-size: cover; 
- height: 20vh;
- width: auto;
-} */
 
 .box {
- 
+
   height: 50px;
   width: 50px;
 }
@@ -95,9 +87,9 @@ form {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 10px;
-  
 }
+
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -105,4 +97,12 @@ form {
   margin: 15px;
   text-align: center;
   border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.para{
+  background-color: #FFFFFF;
 }
