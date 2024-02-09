@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* universal */
+.bg-button {
+  background-color: #6B5AE0 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #FFFFFF !important;
+}
+
+nav {
+  color: #FFFFFF;
+}
+
+
+.subTitle {
+  font-size: 12px;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18{
+  font-size: 18px !important;
+  color: #1E1A34;
+}
+
+.form-control {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-block {
+  border: 1px solid #f1d0d0;
+}
+
+input::placeholder {
+  color: #1E1A34;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+form {
+  background: #F8F7FE !important;
+
+}
+
+.title {
+  color: #FFFFFF;
+}
+
+.problem-title {
+  color: #1E1A34;
+}
+
+.main {
+  background-image: url('./assets/images/Ellipse.png');
+  background-position: top !important;
+  background-size: cover;
+  height: 40vh;
+  width: auto;
+
+  background-repeat: no-repeat;
+}
+
+/* .main1{
+ background: url('./assets/images/Rectangle.png');
+ background-position: bottom !important;
+  background-size: cover; 
+ height: 20vh;
+ width: auto;
+} */
+
+.box {
+ 
+  height: 50px;
+  width: 50px;
+}
+
+.icon {
+  top: 11px;
+  position: absolute;
+  right: 20px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 18px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
