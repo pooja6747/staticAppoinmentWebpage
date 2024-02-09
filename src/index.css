@@ -36,7 +36,7 @@ nav {
 }
 
 .form-control {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
 }
 
 .form-block {
@@ -70,7 +70,7 @@ form {
 }
 
 .icon {
-  top: 11px;
+  top: 10px;
   position: absolute;
   right: 20px
 }
@@ -89,11 +89,13 @@ form {
   border-radius: 10px;
 }
 
+
 .dental{
-  color: #6B5AE0 !important;
+  color: #383258;
   height: 40px;
   width: 40px;
 }
+
 
 .dot-img{
   background-color: #383258;

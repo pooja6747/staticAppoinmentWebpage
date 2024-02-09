@@ -19,7 +19,7 @@ const Problems = () => {
               <div className="row">
                 <div className="img-div d-flex justify-content-between">
                   <div className="para text-center">
-                  <img src={dental1} className='dental' alt='..dental' width="30" height="30" />
+                  <img src={dental1} className='dental dental-color' alt='..dental' width="30" height="30" />
                   </div>
                   <img src={dot} alt='..dental' className='dot-img' width="30" height="30" />
                 </div>
