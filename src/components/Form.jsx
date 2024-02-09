@@ -25,7 +25,7 @@ const Form = () => {
                             <input type="text" className="form-control rounded-5 " placeholder="Choose Consultation"/>
                         </div>
                         <div className="row m-1">
-                        <button type="submit" className="btn btn-lg bg-button rounded-5 font-16 fw-semibold ">Book Appoinment</button>
+                        <button type="submit" className="btn btn-lg bg-button rounded-5 font-16 fw-semibold btn-shadow">Book Appoinment</button>
                         </div>
                        
                     </form>
